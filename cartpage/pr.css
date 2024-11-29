@@ -1,0 +1,135 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: 500;
+}
+.header .icons a {
+    margin: 0 10px;
+    color: #000;
+}
+.container {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+}
+.product-image {
+flex: 1;
+border-radius: 50%;
+max-width: 50%;
+}
+.product-image img {
+width: 100%;
+height: auto;
+}
+.product-details {
+flex: 1;
+max-width: 50%;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-title {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.product-price {
+font-size: 28px;
+color: #4a4a4a;
+margin-bottom: 20px;
+}
+.product-sku {
+font-size: 14px;
+color: #888;
+margin-bottom: 20px;
+}
+.product-qty {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.product-qty input {
+width: 50px;
+text-align: center;
+margin: 0 10px;
+}
+.product-qty button {
+background-color: #e0e0e0;
+border: none;
+padding: 10px;
+cursor: pointer;
+}
+.product-qty button:hover {
+background-color: #d0d0d0;
+}
+.product-buttons {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+.product-buttons button {
+flex: 1;
+padding: 15px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+.add-to-cart {
+background-color: #6c63ff;
+color: #fff;
+}
+.buy-now {
+background-color: #fff;
+color: #6c63ff;
+border: 1px solid #6c63ff;
+}
+.add-to-cart:hover {
+background-color: #5a54d1;
+}
+.buy-now:hover {
+background-color: #f0f0f0;
+}
+.product-links {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+.product-links a {
+color: #6c63ff;
+text-decoration: none;
+}
+.product-links a:hover {
+text-decoration: underline;
+}
+.product-social {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+.product-social a {
+color: #6c63ff;
+font-size: 20px;
+}
+.product-social a:hover {
+color: #5a54d1;
+}
+.product-checkout {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.product-checkout img {
+height: 30px;
+}
